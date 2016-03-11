@@ -1,0 +1,44 @@
+body {
+  background-color: #ddd;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 10px 10px;
+}
+
+section h1 {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+section h2 {
+  padding: 10px 0 10px 0;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+section h3 {
+  padding: 10px 0 10px 0;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}

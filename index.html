@@ -4,15 +4,72 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Atsushi Hasegawa Portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="portfolio.css" />
+
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <nav class="navbar navbar-default">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="contact.html"></a>
+         </div>
+         <div class="collapse navbar-collapse" id="site-menu">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="https://github.com/atjuncarol">Github</a></li>
+             <li><li class="active"><a href="index.html">About</a></li>
+             <li><a href="contact.html">Contact</a></li>
+           </ul>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+   <header>
+
+      <div id="logo">
+        <img src="ah_face.jpg" alt="atsushi" />
+        <h1>Atsushi Hasegawa</h1>
+      </div>
+    </header>
+
+    <body>
+     
+    <div class="container">
+      <section>
+        <h3>長谷川　温（プログラマー）</h3>
+        <p>長年様々なプロジェクトに関わってきました。今は主にRuby on Railを使った開発に携わっています。</p>
+        <p>私のポートフォリオを見て気になった方は、<a href="contact.html"><b>こちら</b></a>からご連絡ください。</p>
+        
+        <h3>My Recent Works</h3>
+        <ul>
+        <li><h4>Wishlist</h4><img src="s_wishlist.png"/></li>
+        <li><h4>Messageboard</h4><img src="s_messageboard.png"/></li>
+        <li><h4>Twitter Clone</h4><img src="s_twitterclone.png"/></li>
+        <li><h4>Life Plan</h4><img src="s_lifeplan.png"/></li>
+        </ul>
+        
+        <h3>Reach Me At</h3>
+        <ul>
+          <li><a href="https://github.com/atjuncarol" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/atsushihasegawa" target="_blank">Linkedin</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Atsushi Hasegawa.</p>
+      </footer>
+    </div>
   </body>
-</html> 
+</html>
