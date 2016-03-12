@@ -1,5 +1,6 @@
     <!DOCTYPE html>
     <html lang="ja">
+    <meta name="description" content="長谷川　温の問い合わせページ。仕事の依頼。Atsushi Hasegawa's contact">
       <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,20 +17,19 @@
 	</head>
   <div class="container">
     <section>
-
-<body>
+      <body>
   <h1>お問い合わせ</h1>
-  <form action="" method="post">
+  <form action="お問い合わせ" method="post">
     <label>お名前：<input type="text" name="login_name" /></label><br />
     <label>E-mail：<input type="email" name="email" /></label><br />
     <div>
       <ul>
-      <li><label>男性<input type="radio" name="gender" value="man" /></label></li>
-      </li><label>女性<input type="radio" name="gender" value="woman" /></label></li>
+      <li><input type="checkbox" name="男性" /><label for="gender">男性</label></li>
+      <li><input type="checkbox" name="女性" /><label for="gender">女性</label></li>
       </ul>
     </div>
     <div>
-      <p><h2>ご用件を選んでください。</h2></p>
+      <h2>ご用件を選んでください。</h2>
       <ul>
       <li><label><input type="checkbox" name="hobby" value="1" />仕事の依頼</label></li>
       <li><label><input type="checkbox" name="hobby" value="2" />ポートレートページに関するお問い合わせ</label></li>
@@ -37,7 +37,7 @@
       </ul>
     </div>
     <div>
-      <p><h3>ご住所</h3></p>
+      <h3>ご住所</h3>
       <select name="select1">
         <option value="1">北海道</option>
         <option value="2">青森県</option>
@@ -94,7 +94,9 @@
         placeholder=""></textarea>
     </div>
     <p><button type="submit" class="btn btn-primary">送信</button></p>
-    <p><a href="portfolio.html"><button type="button" class="btn btn-primary">戻る</button></a></p>
+    <a href="index.html"><input type="button" class="btn btn-primary" value="戻る"></a>
+    
+    
     </form>
 
 </section>

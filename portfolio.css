@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 .navbar-brand {
-  background: url("logo.png") no-repeat left center;
+  background: url("logo.png" title="") no-repeat left center;
   background-size: contain;
   height: 50px;
   width: 250px;
